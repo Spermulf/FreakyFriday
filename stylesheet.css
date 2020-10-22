@@ -1,0 +1,164 @@
+.top {
+  background-color: #EC0000;
+  width: 100%;
+  height: 100px;
+  text-align: left;
+  vertical-align: middle;
+  box-shadow: 0px 5px 5px darkblue;
+}
+
+h1 {
+  margin-left: 35%;
+  color: white;
+}
+
+p {
+  font-family: Arial;
+  color: black;
+  font-size: 20px;
+  line-height: 1.5
+}
+
+.text{
+  padding-left: 50px;
+  padding-right: 75px;
+  padding-bottom: 20px;
+}
+
+.text-box {
+  float: left;
+  margin-left: 120px;
+  margin-top: 8px;
+  margin-right: 120px;
+  margin-bottom: 10px;
+  border-left: 100px;
+  border-right: 5000px;
+  background-color: #F6F6F6;
+  border: 2px solid lightgrey;
+}
+
+.logonorge {
+  height: 100%;
+  margin-left: 1%;
+}
+
+.logonff {
+  height: 100%;
+}
+
+main {
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4,1fr);
+  grid-template-areas:
+  " . haaland . king . "
+  " elyounoussi midtsjø . berge odegaard  "
+  " meling ajer . reginiussen omar  "
+  " . . jarstein . . "
+  ;
+  grid-gap: 1em;
+  height: 1000px;
+  width: auto;
+  background-image: url(images/field.png);
+  background-size: 1360px 1100px;
+  background-repeat: no-repeat;
+  margin-top: 8px;
+  margin-right: 70px;
+  margin-left: 70px;
+  border: 2px solid grey;
+  }
+
+
+
+.pictures {
+
+  height: 100%;
+  margin-left: 25%:
+
+}
+
+}
+
+main div {
+  justify-content: center;
+}
+
+
+footer {
+  border: 2px solid grey;
+  background: white;
+  border: 1px solid grey;
+  margin-top: 2px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas:
+  " footertxt romania østerrike . "
+  ;
+  grid-gap: 1em;
+  width: auto;
+}
+
+h2 {
+  margin-top: 8%;
+  margin-left: 14%;
+  font-size: 30;
+}
+
+
+#haaland {
+  grid-area: haaland;
+}
+
+#king {
+  grid-area: king;
+}
+
+#elyounoussi {
+  grid-area: elyounoussi;
+}
+
+#midtsjø {
+  grid-area: midtsjø;
+}
+
+#berge {
+  grid-area: berge;
+}
+
+#odegaard {
+  grid-area: odegaard;
+}
+
+#meling {
+  grid-area: meling;
+}
+
+#ajer {
+  grid-area: ajer;
+}
+
+#reginiussen {
+  grid-area: reginiussen;
+}
+
+#omar {
+  grid-area: omar;
+}
+
+#jarstein {
+  grid-area: jarstein;
+}
+
+#romania {
+  grid-area: romania;
+}
+
+#østerrike {
+  grid-area: østerrike;
+}
+
+#footertxt {
+  grid-area: footertxt;
+}
