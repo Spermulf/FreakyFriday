@@ -45,30 +45,31 @@ p {
 .logonff {
   height: 100%;
 }
+@media only screen and (min-width: 600px) {
+  main {
 
-main {
-
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4,1fr);
-  grid-template-areas:
-  " . haaland . king . "
-  " elyounoussi midtsjø . berge odegaard  "
-  " meling ajer . reginiussen omar  "
-  " . . jarstein . . "
-  ;
-  grid-gap: 1em;
-  height: 1000px;
-  width: auto;
-  background-image: url(images/field.png);
-  background-size: 1360px 1100px;
-  background-repeat: no-repeat;
-  margin-top: 8px;
-  margin-right: 70px;
-  margin-left: 70px;
-  border: 2px solid grey;
-  }
-
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas:
+    " . haaland . king . "
+    " elyounoussi midtsjø . berge odegaard  "
+    " meling ajer . reginiussen omar  "
+    " . . jarstein . . "
+    ;
+    grid-gap: 1em;
+    height: 1000px;
+    background-size: 100%  100%;
+    width: auto;
+    background-image: url(images/field.png);
+    background-size: 1360px 1100px;
+    background-repeat: no-repeat;
+    margin-top: 8px;
+    margin-right: 70px;
+    margin-left: 70px;
+    border: 2px solid grey;
+    }
+}
 
 
 .pictures {
